@@ -1,0 +1,15 @@
+import UIKit
+
+class SuperCoolViewController:UIViewController  {
+ 
+ let array = [1,2,4,17]
+ 
+ override func viewDidLoad( )
+          super.viewDidLoad( )
+        // Do any additional set up after loading the view
+        
+        override func viewDidiLoad( )  {
+          super.viewDidLoad( )
+          array.removeFirst( )
+          print (array.count)
+          x3
